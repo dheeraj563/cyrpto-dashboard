@@ -1,0 +1,43 @@
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.loopwrapper {
+    text-decoration: none;
+
+}
+
+.searchCoin input {
+    margin-bottom: 1.6rem;
+	padding: 4px 8px;
+	background: transparent;
+	text-overflow: ellipsis;
+	width: 232px;
+	box-sizing: border-box;
+    outline: none;
+    border-radius: 10px;
+    color: black;
+    margin-left: 80px;
+}
+
+.indicator {
+    display: flex;
+    justify-content: center;
+    padding: 80px 40px;
+    font-weight: bold;
+    color: red;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+@media(min-width: 768px) {
+    .searchCoin input {
+        margin-left: 220px;
+    }
+}

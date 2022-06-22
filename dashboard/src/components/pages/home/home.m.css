@@ -1,0 +1,9 @@
+.homeWrapper {
+    padding: 20px 0;
+}
+
+@media(min-width: 768px) {
+    .homeWrapper {
+        padding: 80px 0;
+    }
+}

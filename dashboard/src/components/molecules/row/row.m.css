@@ -1,0 +1,100 @@
+.rowWrapper {
+  display: flex;
+  padding: 0px;
+  font-size: 10px;
+}
+
+.rowWrapper img {
+  width: 12px;
+  height: 12px;
+  padding-right: 8px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 45px;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding: 0 12px;
+}
+
+.name:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.name {
+  display: flex;
+}
+
+.name th {
+  padding-left: 20px;
+}
+
+.coinid {
+  width: 16px;
+}
+
+td:nth-child(1),
+th:nth-child(1) {
+  display: flex;
+  width: 160px;
+}
+
+td:nth-child(1) div {
+  padding-right: 16px;
+}
+td:nth-child(4),
+td:nth-child(5),
+td:nth-child(6),
+th:nth-child(4),
+th:nth-child(5),
+th:nth-child(6) {
+  width: 75px;
+  text-align: end;
+}
+
+.dummyTag {
+  width: 75px;
+}
+
+@media (min-width: 768px) {
+  .rowWrapper {
+    padding: 0px 120px;
+    font-size: 14px;
+  }
+  .rowWrapper img {
+    width: 20px;
+    height: 20px;
+    padding-right: 12px;
+  }
+
+  tr {
+    height: 60px;
+    padding: 0 20px;
+  }
+  td:nth-child(1),
+  th:nth-child(1) {
+    display: flex;
+    width: 400px;
+  }
+  td:nth-child(1) div {
+    padding-right: 20px;
+  }
+  td:nth-child(4),
+  td:nth-child(5),
+  td:nth-child(6),
+  th:nth-child(4),
+  th:nth-child(5),
+  th:nth-child(6) {
+    width: 100px;
+    text-align: end;
+  }
+}
